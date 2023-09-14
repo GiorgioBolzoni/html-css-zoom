@@ -18,6 +18,9 @@ img{
 .bg-grey{
     background-color: var(--color-bg-grey);
 }
+ul{
+    list-style: none;
+}
 /* .debug{
     border: 1px solid rgb(211, 38, 38);
 } */
@@ -31,6 +34,9 @@ img{
 }
 .f-center{
     justify-content: center;
+}
+.column{
+    flex-direction: column;
 }
 
 /* main */
@@ -85,4 +91,35 @@ img{
 .playbar{
     height: 90px;
     background-color: var(--color-bg-footer);
+    color: white;
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    justify-content: space-between;
+    flex-direction: row;
+}
+li{
+    padding: 3px;
+    margin-left: 5px;
+}
+i{
+    margin-bottom: 2px;
+    display: block;
+}
+.arrow{
+    font-size: 0.2em;
+}
+.end-meeting{
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-content: center;
+    color: var(--color-col-red);
 }
